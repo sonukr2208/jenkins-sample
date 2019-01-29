@@ -12,6 +12,11 @@ pipeline {
                 echo 'Testing branch..'
             }
         }
+        stage('Publish') {
+            steps {
+                echo 'Publish branch....'
+            }
+        }
         stage('Deploy') {
             steps {
                 echo 'Deploying branch....'
