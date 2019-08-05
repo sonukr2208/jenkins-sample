@@ -1,2 +1,2 @@
 # jenkins-sample
-Sample Jenkinsfile Git repo to test
+Sample Jenkinsfile Git repo.
