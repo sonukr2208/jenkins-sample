@@ -1,9 +1,13 @@
 pipeline {
-    agent any
-
+    agent {
+        node {
+			label 'Linux'
+        }
+    }
     stages {
         stage('Build') {
             steps {
+                sh 'printenv'
                 echo 'Building branch..'
                 sh 'printenv'
             }
